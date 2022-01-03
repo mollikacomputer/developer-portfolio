@@ -11,6 +11,17 @@ h1 {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
+.ancor-button {
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: 700;
+  background-image: linear-gradient(orange, rgb(250, 100, 107));
+  color: white;
+  border-radius: 10px;
+}
+a {
+  text-transform: uppercase;
+}
 .orange-color {
   color: orange;
 }
@@ -28,4 +39,11 @@ h1 {
 }
 section {
   margin-bottom: 150px;
+}
+#dream-big {
+  display: flex;
+  padding-right: 5%;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
