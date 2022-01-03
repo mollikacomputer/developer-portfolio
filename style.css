@@ -71,3 +71,6 @@ section {
   border-image: linear-gradient(180deg, blue, orange);
   border-image-slice: 1;
 }
+footer {
+  text-align: center;
+}
