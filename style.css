@@ -64,12 +64,12 @@ section {
 #fullstack-web {
   border-left: 7px solid;
   border-image: linear-gradient(180deg, magenta, green);
-  border-image-slice: 1;
+  border-image-slice: 2;
 }
 #baby-web {
-  border-left: 7px solid;
-  border-image: linear-gradient(180deg, blue, orange);
-  border-image-slice: 1;
+  border: 30px solid;
+  border-image-source: url(images/border.png);
+  border-image-slice: 40;
 }
 footer {
   text-align: center;
